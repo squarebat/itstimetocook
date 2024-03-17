@@ -1,6 +1,6 @@
 ---
 data: posts.posts
-layout: base.njk
+layout: index.njk
 ---
 
 ![profile-photo.jpg](/assets/profile-photo.png)
