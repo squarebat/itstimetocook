@@ -17,8 +17,17 @@
 }
 }
 
-body {
+* {
   background-color: var(--background-color);
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
   color: var(--color);
   margin: 0;
   font-family: sans-serif;
@@ -29,13 +38,7 @@ body {
   max-width: 100vw;
 }
 
-* {
-  margin-top: 0;
-  box-sizing: border-box;
-}
-
 main {
-  min-height: 100vh;
   display: flex;
   align-items: flex-start;
   justify-content: center;
