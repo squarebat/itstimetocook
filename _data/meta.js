@@ -1,8 +1,8 @@
 module.exports = {
     url: process.env.URL || "http://localhost:8080", // You probably don't need to change this
-    siteName: "Early Start",
+    siteName: "Its time to cook",
     siteDescription:
-      "Quick-launch your own personal website!",
-    authorName: "Sue Dunham",
-    twitterUsername: "MrsSueDunham", // no `@`
+      "Shenanigans",
+    authorName: "Khadija Sidhpuri",
+    twitterUsername: "squarebat11", // no `@`
   };

@@ -118,3 +118,9 @@ p {
 .post footer a.next {
   margin-left: auto;
 }
+
+img[alt=profile-photo] {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}

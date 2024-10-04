@@ -3,17 +3,13 @@ data: posts.posts
 layout: index.njk
 ---
 
-![profile-photo.jpg](/assets/profile-photo.png)
+![profile-photo](/assets/profile-photo.png)
 
-# Early Start
+# It's time to cook
 
-I'm a super simple website template you can start using in minutes! Find me on GitHub at [ai-mama/early-start](https://github.com/ai-mama/early-start).
+It took me 3 years of procrastination to finally get around to setting up my personal site. And it took only 5 mins and 10$ to actually do it. What am I doing here? I don’t know, I don’t have anything interesting to say, or cool tech buzz to share. But perhaps I don’t have any great thoughts because I don’t have an outlet for them? This is it. Welcome to my outlet. I am curious to see how it evolves. 
 
-You can change anything on this page.
-
-## Recent Posts
-
-This optional section shows recent notes published using Collected Notes. Read more about using Collected Notes for content management [here](/collected-notes-cms/).
+## This is what I wrote
 
 {% for post in posts.posts | limit(5) %}
 [{{post.title}}](/blog/{{post.path}})
